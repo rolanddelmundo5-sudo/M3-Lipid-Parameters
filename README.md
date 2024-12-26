@@ -4,7 +4,17 @@ Home of the open beta reparameterized Martini 3 lipids.
 
 ## Citation
 
-Kasper B. Pedersen et al. 2024 DOI TBD
+Until official publication, please cite our preprint:
+
+The Martini 3 Lipidome: Expanded and Refined Parameters Improve Lipid Phase Behavior
+
+26 December 2024, Version 1
+
+Pedersen et al.
+
+DOI: 10.26434/chemrxiv-2024-8bjrr
+
+https://chemrxiv.org/engage/chemrxiv/article-details/67652de681d2151a02594f8d
 
 ## License
 
