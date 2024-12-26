@@ -21,7 +21,7 @@ https://chemrxiv.org/engage/chemrxiv/article-details/67652de681d2151a02594f8d
 The contents of this repository are distributed under the Apache 2.0 license.
 The full text of the license is available in the source repository.
 
-## Contributions
+## Feedback and Contributions
 
 The development of Martini lipids is done on [github]. If you encounter any problems please file an [issue].
 Contributions are welcome as [pull requests]. Note however that the
