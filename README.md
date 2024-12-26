@@ -1,6 +1,6 @@
 # M3-Lipid-Parameters
 
-Home of the open beta reparameterized Martini 3 lipids. 
+Home of the Martini 3 lipid parameters. 
 
 ## Citation
 
