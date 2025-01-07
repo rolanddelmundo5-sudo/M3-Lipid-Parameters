@@ -3,7 +3,7 @@
 ;;;;; Alkanes / Alkenes
 
 ; authors: Kasper B. Pedersen 
-; last edit Dec-2024, Kasper
+; last edit Jan-2025, Kasper
 
 ;;;;; 
 ;;;;; C16 
@@ -33,8 +33,8 @@ C16 	1
 
 [angles]
 ; i j k         named potential
- 1  2  3 	a_C1_C1_C1_cbt 
- 2  3  4 	a_C1_C1_C1_cbt
+ 1  2  3 	a_C1_C1_C1_def 
+ 2  3  4 	a_C1_C1_C1_def
 
 ;;;;; 
 ;;;;; C20
@@ -66,9 +66,9 @@ C20 	1
 
 [angles]
 ; i j k         named potential
- 1  2  3 	a_C1_C1_C1_cbt 
- 2  3  4 	a_C1_C1_C1_cbt
- 3  4  5 	a_C1_C1_C1_cbt
+ 1  2  3 	a_C1_C1_C1_def 
+ 2  3  4 	a_C1_C1_C1_def
+ 3  4  5 	a_C1_C1_C1_def
 
 ;;;;; 
 ;;;;; C24
@@ -102,10 +102,10 @@ C24 	1
 
 [angles]
 ; i j k         named potential
- 1  2  3 	a_C1_C1_C1_cbt 
- 2  3  4 	a_C1_C1_C1_cbt
- 3  4  5 	a_C1_C1_C1_cbt
- 4  5  6 	a_C1_C1_C1_cbt
+ 1  2  3 	a_C1_C1_C1_def 
+ 2  3  4 	a_C1_C1_C1_def
+ 3  4  5 	a_C1_C1_C1_def
+ 4  5  6 	a_C1_C1_C1_def
 
 ;;;;; 
 ;;;;; IC1
@@ -137,9 +137,9 @@ IC1 	1
 
 [angles]
 ; i j k         named potential
- 1  2  3 	a_C1_C1_C4_cbt 
- 2  3  4 	a_C1_C4_C1_cbt
- 3  4  5 	a_C1_C1_C4_cbt
+ 1  2  3 	a_C1_C1_C4_def 
+ 2  3  4 	a_C1_C4_C1_def
+ 3  4  5 	a_C1_C1_C4_def
 
 ;;;;; 
 ;;;;; IC2
@@ -171,9 +171,9 @@ IC2 	1
 
 [angles]
 ; i j k         named potential
- 1  2  3 	a_C1_C1_C4_cbt 
- 2  3  4 	a_C1_C4_C4_cbt
- 3  4  5 	a_C1_C4_C4_cbt
+ 1  2  3 	a_C1_C1_C4_def 
+ 2  3  4 	a_C1_C4_C4_def
+ 3  4  5 	a_C1_C4_C4_def
 
 ;;;;; 
 ;;;;; IC3
@@ -205,9 +205,9 @@ IC3 	1
 
 [angles]
 ; i j k         named potential
- 1  2  3 	a_C1_C1_C4_cbt 
- 2  3  4 	a_C1_C4_C4_cbt
- 3  4  5 	a_C4_C4_C4_cbt
+ 1  2  3 	a_C1_C1_C4_def 
+ 2  3  4 	a_C1_C4_C4_def
+ 3  4  5 	a_C4_C4_C4_def
 
 ;;;;; 
 ;;;;; IC4
@@ -239,9 +239,9 @@ IC4 	1
 
 [angles]
 ; i j k         named potential
- 1  2  3 	a_C1_C4_C4_cbt 
- 2  3  4 	a_C4_C4_C4_cbt
- 3  4  5 	a_C4_C4_C4_cbt
+ 1  2  3 	a_C1_C4_C4_def 
+ 2  3  4 	a_C4_C4_C4_def
+ 3  4  5 	a_C4_C4_C4_def
 
 ;;;;; 
 ;;;;; IC5
@@ -273,9 +273,9 @@ IC5 	1
 
 [angles]
 ; i j k         named potential
- 1  2  3 	a_C1_C4_C4_cbt 
- 2  3  4 	a_C4_C4_C4_cbt
- 3  4  5 	a_C4_C4_C4_cbt
+ 1  2  3 	a_C1_C4_C4_def 
+ 2  3  4 	a_C4_C4_C4_def
+ 3  4  5 	a_C4_C4_C4_def
 
 ;;;;; 
 ;;;;; IC6
@@ -307,9 +307,9 @@ IC6 	1
 
 [angles]
 ; i j k         named potential
- 1  2  3 	a_C1_C4_C1_cbt 
- 2  3  4 	a_C1_C1_C4_cbt
- 3  4  5 	a_C1_C1_C1_cbt
+ 1  2  3 	a_C1_C4_C1_def 
+ 2  3  4 	a_C1_C1_C4_def
+ 3  4  5 	a_C1_C1_C1_def
 
 ;;;;; 
 ;;;;; IC7
@@ -341,9 +341,9 @@ IC7 	1
 
 [angles]
 ; i j k         named potential
- 1  2  3 	a_C1_C4_C1_cbt 
- 2  3  4 	a_C4_C1_C4_cbt
- 3  4  5 	a_C1_C4_C4_cbt
+ 1  2  3 	a_C1_C4_C1_def 
+ 2  3  4 	a_C4_C1_C4_def
+ 3  4  5 	a_C1_C4_C4_def
 
 ;;;;; 
 ;;;;; IC8
@@ -375,9 +375,9 @@ IC8 	1
 
 [angles]
 ; i j k         named potential
- 1  2  3 	a_C1_C4_C1_cbt 
- 2  3  4 	a_C4_C1_C4_cbt
- 3  4  5 	a_C1_C4_C1_cbt
+ 1  2  3 	a_C1_C4_C1_def 
+ 2  3  4 	a_C4_C1_C4_def
+ 3  4  5 	a_C1_C4_C1_def
 
 ;;;;; 
 ;;;;; IC9
@@ -409,6 +409,6 @@ IC9 	1
 
 [angles]
 ; i j k         named potential
- 1  2  3 	a_C1_C4_C1_cbt 
- 2  3  4 	a_C4_C1_C1_cbt
- 3  4  5 	a_C1_C1_C4_cbt
+ 1  2  3 	a_C1_C4_C1_def 
+ 2  3  4 	a_C4_C1_C1_def
+ 3  4  5 	a_C1_C1_C4_def
