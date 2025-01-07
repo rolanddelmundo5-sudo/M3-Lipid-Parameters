@@ -5,7 +5,7 @@
 ;;;;; 
 ; cite KBP et al. TBD
 ; authors: Kasper B. Pedersen 
-; last edit Dec-2024, Kasper
+; last edit Jan-2025, Kasper
 ;;;;; 
 
 ;;;;; 
@@ -71,13 +71,13 @@ TO 	1
 ; tails attached to glycerol
  1  2  3 	a_GL_C1_C1_glyc ; tail 1
  2  3  4 	a_C1_C4_C1_cbt ; cis double bond
- 3  4  5 	a_C1_C1_C4_cbt
+ 3  4  5 	a_C1_C1_C4_def
  6  7  8 	a_GL_C1_C1_glyc ; tail 2
- 7  8  9 	a_C1_C4_C1_cbt ; cis double bond
- 8  9 10 	a_C1_C1_C4_cbt
+ 7  8  9 	a_C1_C4_C1_def ; cis double bond
+ 8  9 10 	a_C1_C1_C4_def
 11 12 13 	a_GL_C1_C1_glyc ; tail 3
-12 13 14 	a_C1_C4_C1_cbt ; cis double bond
-13 14 15  	a_C1_C1_C4_cbt
+12 13 14 	a_C1_C4_C1_def ; cis double bond
+13 14 15  	a_C1_C1_C4_def
 
 ;;;;; 
 ;;;;; Trilinolein 
@@ -140,14 +140,14 @@ TL 	1
  7  6 11	a_GL_GL_C_glyc   ; backbone to tail 2
 ; tails attached to glycerol
  1  2  3 	a_GL_C1_C1_glyc ; tail 1
- 2  3  4 	a_C1_C4_C4_cbt
- 3  4  5 	a_C4_C4_C1_cbt
+ 2  3  4 	a_C1_C4_C4_def
+ 3  4  5 	a_C4_C4_C1_def
  6  7  8 	a_GL_C1_C1_glyc ; tail 2
- 7  8  9 	a_C1_C4_C4_cbt
- 8  9 10 	a_C4_C4_C1_cbt
+ 7  8  9 	a_C1_C4_C4_def
+ 8  9 10 	a_C4_C4_C1_def
 11 12 13 	a_GL_C1_C1_glyc ; tail 3
-12 13 14 	a_C1_C4_C4_cbt
-13 14 15  	a_C4_C4_C1_cbt
+12 13 14 	a_C1_C4_C4_def
+13 14 15  	a_C4_C4_C1_def
 
 ;;;;; 
 ;;;;; Trilinolenin (α-linolenic, omega-3) 
@@ -211,14 +211,14 @@ TLN	1
  7  6 11	a_GL_GL_C_glyc   ; backbone to tail 2
 ; tails attached to glycerol
  1  2  3 	a_GL_C1_C1_glyc ; tail 1
- 2  3  4 	a_C1_C4_C4_cbt
- 3  4  5 	a_C4_C4_C4_cbt
+ 2  3  4 	a_C1_C4_C4_def
+ 3  4  5 	a_C4_C4_C4_def
  6  7  8 	a_GL_C1_C1_glyc ; tail 2
- 7  8  9 	a_C1_C4_C4_cbt
- 8  9 10 	a_C4_C4_C4_cbt
+ 7  8  9 	a_C1_C4_C4_def
+ 8  9 10 	a_C4_C4_C4_def
 11 12 13 	a_GL_C1_C1_glyc ; tail 3
-12 13 14 	a_C1_C4_C4_cbt
-13 14 15  	a_C4_C4_C4_cbt
+12 13 14 	a_C1_C4_C4_def
+13 14 15  	a_C4_C4_C4_def
 
 ;;;;; 
 ;;;;; Tristearin
@@ -281,14 +281,14 @@ TS 	1
  7  6 11	a_GL_GL_C_glyc   ; backbone to tail 2
 ; tails attached to glycerol
  1  2  3 	a_GL_C1_C1_glyc ; tail 1
- 2  3  4 	a_C1_C1_C1_cbt
- 3  4  5 	a_C1_C1_C1_cbt
+ 2  3  4 	a_C1_C1_C1_def
+ 3  4  5 	a_C1_C1_C1_def
  6  7  8 	a_GL_C1_C1_glyc ; tail 2
- 7  8  9 	a_C1_C1_C1_cbt
- 8  9 10 	a_C1_C1_C1_cbt
+ 7  8  9 	a_C1_C1_C1_def
+ 8  9 10 	a_C1_C1_C1_def
 11 12 13 	a_GL_C1_C1_glyc ; tail 3
-12 13 14 	a_C1_C1_C1_cbt
-13 14 15  	a_C1_C1_C1_cbt
+12 13 14 	a_C1_C1_C1_def
+13 14 15  	a_C1_C1_C1_def
 
 ;;;;; 
 ;;;;; Tripalmitin
@@ -351,14 +351,14 @@ TP 	1
  7  6 11	a_GL_GL_C_glyc   ; backbone to tail 2
 ; tails attached to glycerol
  1  2  3 	a_GL_C1_C1_glyc ; tail 1
- 2  3  4 	a_C1_C1_C1_cbt
- 3  4  5 	a_C1_C1_C1_cbt
+ 2  3  4 	a_C1_C1_C1_def
+ 3  4  5 	a_C1_C1_C1_def
  6  7  8 	a_GL_C1_C1_glyc ; tail 2
- 7  8  9 	a_C1_C1_C1_cbt
- 8  9 10 	a_C1_C1_C1_cbt
+ 7  8  9 	a_C1_C1_C1_def
+ 8  9 10 	a_C1_C1_C1_def
 11 12 13 	a_GL_C1_C1_glyc ; tail 3
-12 13 14 	a_C1_C1_C1_cbt
-13 14 15  	a_C1_C1_C1_cbt
+12 13 14 	a_C1_C1_C1_def
+13 14 15  	a_C1_C1_C1_def
 
 ;;;;; 
 ;;;;; Trimyristin 
@@ -415,11 +415,11 @@ TM 	1
  6  5  9	a_GL_GL_C_glyc   ; backbone to tail 2
 ; tails attached to glycerol
  1  2  3 	a_GL_C1_C1_glyc ; tail 1
- 2  3  4 	a_C1_C1_C1_cbt
+ 2  3  4 	a_C1_C1_C1_def
  5  6  7 	a_GL_C1_C1_glyc ; tail 2
- 6  7  8 	a_C1_C1_C1_cbt
+ 6  7  8 	a_C1_C1_C1_def
  9 10 11 	a_GL_C1_C1_glyc ; tail 3
-10 11 12 	a_C1_C1_C1_cbt
+10 11 12 	a_C1_C1_C1_def
 
 ;;;;; 
 ;;;;; Trilaurin 
@@ -476,8 +476,8 @@ TLA 	1
  6  5  9	a_GL_GL_C_glyc   ; backbone to tail 2
 ; tails attached to glycerol
  1  2  3 	a_GL_C1_C1_glyc ; tail 1
- 2  3  4 	a_C1_C1_C1_cbt
+ 2  3  4 	a_C1_C1_C1_def
  5  6  7 	a_GL_C1_C1_glyc ; tail 2
- 6  7  8 	a_C1_C1_C1_cbt
+ 6  7  8 	a_C1_C1_C1_def
  9 10 11 	a_GL_C1_C1_glyc ; tail 3
-10 11 12 	a_C1_C1_C1_cbt
+10 11 12 	a_C1_C1_C1_def
