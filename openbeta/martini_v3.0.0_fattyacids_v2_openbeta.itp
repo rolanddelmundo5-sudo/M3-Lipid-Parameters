@@ -36,8 +36,8 @@ OA 	1
 
 [angles]
  1  2  3 	a_COO_C1_C4_fa
- 2  3  4 	a_C1_C4_C1_cbt 
- 3  4  5 	a_C1_C1_C1_cbt
+ 2  3  4 	a_C1_C4_C1_def 
+ 3  4  5 	a_C1_C1_C1_def
 
 ;;;;; 
 ;;;;; Linoleic acid
@@ -69,8 +69,8 @@ LA 	1
 
 [angles]
  1  2  3 	a_COO_C1_C4_fa
- 2  3  4 	a_C1_C4_C4_cbt
- 3  4  5 	a_C1_C4_C4_cbt
+ 2  3  4 	a_C1_C4_C4_def
+ 3  4  5 	a_C1_C4_C4_def
 
 ;;;;; 
 ;;;;; α-linolenic acid (omega-3) 
@@ -103,8 +103,8 @@ LNA	1
 
 [angles]
  1  2  3 	a_COO_C1_C1_fa
- 2  3  4 	a_C1_C4_C4_cbt
- 3  4  5 	a_C4_C4_C4_cbt
+ 2  3  4 	a_C1_C4_C4_def
+ 3  4  5 	a_C4_C4_C4_def
 
 ;;;;; 
 ;;;;; Myristic acid 
@@ -134,7 +134,7 @@ MA 	1
 
 [angles]
  1  2  3 	a_COO_C1_C1_fa
- 2  3  4 	a_C1_C1_C1_cbt
+ 2  3  4 	a_C1_C1_C1_def
 
 ;;;;; 
 ;;;;; Palmitic acid
@@ -166,8 +166,8 @@ PA 	1
 
 [angles]
  1  2  3 	a_COO_C1_C1_fa
- 2  3  4 	a_C1_C1_C1_cbt
- 3  4  5 	a_C1_C1_C1_cbt
+ 2  3  4 	a_C1_C1_C1_def
+ 3  4  5 	a_C1_C1_C1_def
 
 ;;;;; 
 ;;;;; Stearic acid
@@ -199,5 +199,5 @@ SA 	1
 
 [angles]
  1  2  3 	a_COO_C1_C1_fa
- 2  3  4 	a_C1_C1_C1_cbt
- 3  4  5 	a_C1_C1_C1_cbt
+ 2  3  4 	a_C1_C1_C1_def
+ 3  4  5 	a_C1_C1_C1_def
