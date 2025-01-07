@@ -3,7 +3,7 @@
 ;;;;; 
 
 ; authors: Kasper B. Pedersen 
-; last edit Dec-2024, Kasper
+; last edit Jan-2025, Kasper
 
 ;;;;; 
 ;;;;; Monoolein
@@ -30,17 +30,17 @@ MO 	1
 		
 [bonds]
 ; i j funct length force.c.
-1 2 	b_DOH_GL_lipid   
+1 2 	b_DOH_GL_def   
 2 3 	b_GL_C1_glyc_5long    
 3 4 	b_C1_C4_mid_5long
 4 5 	b_C1_C4_mid
 5 6 	b_C1_C1_end
 
 [angles]
- 1  2  3 	a_DOH_GL_C_lipid
+ 1  2  3 	a_DOH_GL_C_def
  2  3  4 	a_GL_C1_C4_glyc
- 3  4  5 	a_C1_C4_C1_cbt 
- 4  5  6 	a_C1_C1_C4_cbt
+ 3  4  5 	a_C1_C4_C1_def 
+ 4  5  6 	a_C1_C1_C4_def
 
 ;;;;; 
 ;;;;; Monolinoolein
@@ -67,17 +67,17 @@ ML 	1
 		
 [bonds]
 ; i j funct length force.c.
-1 2 	b_DOH_GL_lipid   
+1 2 	b_DOH_GL_def   
 2 3 	b_GL_C1_glyc_5long    
 3 4 	b_C1_C4_mid_5long
 4 5 	b_C4_C4_mid
 5 6 	b_C1_C4_mid
 
 [angles]
- 1  2  3 	a_DOH_GL_C_lipid
+ 1  2  3 	a_DOH_GL_C_def
  2  3  4 	a_GL_C1_C4_glyc
- 3  4  5 	a_C1_C4_C4_cbt 
- 4  5  6 	a_C1_C4_C4_cbt
+ 3  4  5 	a_C1_C4_C4_def 
+ 4  5  6 	a_C1_C4_C4_def
 
 ;;;;; 
 ;;;;; Monolinoolenin
@@ -104,17 +104,17 @@ MLN 	1
 		
 [bonds]
 ; i j funct length force.c.
-1 2 	b_DOH_GL_lipid   
+1 2 	b_DOH_GL_def   
 2 3 	b_GL_C1_glyc_5long    
 3 4 	b_C1_C4_mid_5long
 4 5 	b_C4_C4_mid
 5 6 	b_C4_C4_mid
 
 [angles]
- 1  2  3 	a_DOH_GL_C_lipid
+ 1  2  3 	a_DOH_GL_C_def
  2  3  4 	a_GL_C1_C4_glyc
- 3  4  5 	a_C1_C4_C4_cbt 
- 4  5  6 	a_C4_C4_C4_cbt
+ 3  4  5 	a_C1_C4_C4_def 
+ 4  5  6 	a_C4_C4_C4_def
 
 ;;;;; Monostearin
 ;;;;; MS
@@ -140,17 +140,17 @@ MS 	1
 		
 [bonds]
 ; i j funct length force.c.
-1 2 	b_DOH_GL_lipid   
+1 2 	b_DOH_GL_def   
 2 3 	b_GL_C1_glyc_5long    
 3 4 	b_C1_C1_mid_5long
 4 5 	b_C1_C1_mid
 5 6 	b_C1_C1_end
 
 [angles]
- 1  2  3 	a_DOH_GL_C_lipid
+ 1  2  3 	a_DOH_GL_C_def
  2  3  4 	a_GL_C1_C1_glyc
- 3  4  5 	a_C1_C1_C1_cbt 
- 4  5  6 	a_C1_C1_C1_cbt
+ 3  4  5 	a_C1_C1_C1_def 
+ 4  5  6 	a_C1_C1_C1_def
 
 ;;;;; Monoplamitin
 ;;;;; MP
@@ -176,7 +176,7 @@ MP 	1
 		
 [bonds]
 ; i j funct length force.c.
-1 2 	b_DOH_GL_lipid   
+1 2 	b_DOH_GL_def   
 2 3 	b_GL_SC1_glyc    
 3 4 	b_SC1_C1_mid
 4 5 	b_C1_C1_mid
@@ -185,8 +185,8 @@ MP 	1
 [angles]
  1  2  3 	a_DOH_GL_C_lipid
  2  3  4 	a_GL_C1_C1_glyc
- 3  4  5 	a_C1_C1_C1_cbt 
- 4  5  6 	a_C1_C1_C1_cbt
+ 3  4  5 	a_C1_C1_C1_def 
+ 4  5  6 	a_C1_C1_C1_def
 
 ;;;;; Monomyristin
 ;;;;; MM
@@ -211,15 +211,15 @@ MM 	1
 		
 [bonds]
 ; i j funct length force.c.
-1 2 	b_DOH_GL_lipid   
+1 2 	b_DOH_GL_def   
 2 3 	b_GL_C1_glyc_5long    
 3 4 	b_C1_C1_mid_5long
 4 5 	b_C1_C1_end
 
 [angles]
- 1  2  3 	a_DOH_GL_C_lipid
+ 1  2  3 	a_DOH_GL_C_def
  2  3  4 	a_GL_C1_C1_glyc
- 3  4  5 	a_C1_C1_C1_cbt 
+ 3  4  5 	a_C1_C1_C1_def 
 
 ;;;;; Monolaurin
 ;;;;; MLA
@@ -244,12 +244,12 @@ MLA 	1
 		
 [bonds]
 ; i j funct length force.c.
-1 2 	b_DOH_GL_lipid   
+1 2 	b_DOH_GL_def   
 2 3 	b_GL_SC1_glyc    
 3 4 	b_SC1_C1_mid
 4 5 	b_C1_C1_end
 
 [angles]
- 1  2  3 	a_DOH_GL_C_lipid
+ 1  2  3 	a_DOH_GL_C_def
  2  3  4 	a_GL_C1_C1_glyc
- 3  4  5 	a_C1_C1_C1_cbt 
+ 3  4  5 	a_C1_C1_C1_def 
