@@ -7,7 +7,7 @@
 ; 
 ; If you use these parameters
 ; CITE: Pedersen et al. DOI TBD
-; Last edit Dec-2024, Kasper B. Pedersen
+; Last edit Jan-2025, Kasper B. Pedersen
 ;
 ; Changes from beta_v3 (only renaming and comments):
 ; Removed CBT dihedrals
@@ -86,7 +86,7 @@
 #define b_PO4_ET_def_long	1 	0.524	1200.0  
 
 ; TAP to glycerol backbone
-#define a_NC3_GL_C_lipid	1	139.0	10.0    
+#define a_NC3_GL_C_def	1	139.0	10.0    
 
 ;bis(monoacylglycero) phosphate (2,2' isomer)
 #define b_GL_OH_22_bmp	    1 	0.292  6000.0  
@@ -188,8 +188,8 @@
 #define b_COH_GL_def	    1 	0.284	6000.0    ; alkohol in diacylglycerols
 #define b_COH_GL_def_long	1 	0.362	8000.0    ; alkohol in diacylglycerols
 
-#define b_NC3_GL_lipid		1 	0.450	3800.0    ; TAP trimethylammonium propane
-#define b_NC3_GL_lipid_long	1 	0.524	1200.0    ; TAP trimethylammonium propane
+#define b_NC3_GL_def		1 	0.450	3800.0    ; TAP trimethylammonium propane
+#define b_NC3_GL_def_long	1 	0.524	1200.0    ; TAP trimethylammonium propane
 
 #define b_DOH_GL_def	    1	0.313   4400.0    ; diol in monoglycerides
 
