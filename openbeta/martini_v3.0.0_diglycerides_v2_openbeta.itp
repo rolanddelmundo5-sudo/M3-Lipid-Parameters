@@ -56,7 +56,7 @@
 [angles]
 ;  i  j  k 	name 	(using named angletypes from martini_v3.0_ffbonded.itp)
 ;  i  j  k 	funct 	angle 	force.c.
-   1  2  4 	a_COH_GL_C_lipid
+   1  2  4 	a_COH_GL_C_def
    3  2  4 	a_GL_GL_C_glyc
    2  3  8 	a_GL_GL_C_glyc
    2  4  5 	a_GL_C1_C4_glyc
