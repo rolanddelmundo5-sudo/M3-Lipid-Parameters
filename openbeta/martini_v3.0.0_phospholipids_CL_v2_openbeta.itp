@@ -43,8 +43,8 @@
 ; i  j 
   1  2  b_PO4_GL_cl
   1 11  b_PO4_GL_cl
-  2  3 	b_PO4_GL_lipid
-  2  4 	b_PO4_GL_lipid_long
+  2  3 	b_PO4_GL_def
+  2  4 	b_PO4_GL_def_long
   3  4 	b_GL_GL_glyc
   3  5 	b_GL_C1_glyc_5long
   5  6 	b_C1_C1_mid_5long
@@ -52,8 +52,8 @@
   4  8 	b_GL_C1_glyc_5long
   8  9 	b_C1_C1_mid_5long
   9 10 	b_C1_C1_end
- 11 12  b_PO4_GL_lipid 
- 11 13 	b_PO4_GL_lipid_long
+ 11 12  b_PO4_GL_def 
+ 11 13 	b_PO4_GL_def_long
  12 13  b_GL_GL_glyc
  12 14  b_GL_C1_glyc_5long
  14 15  b_C1_C1_mid_5long
@@ -67,35 +67,20 @@
   2  1 11  a_PO4_GL_PO4_cl
   1  2  3  a_GL_PO4_GL_cl
   1 11 12  a_GL_PO4_GL_cl
-  2  3  5  a_PO4_GL_C_lipid
+  2  3  5  a_PO4_GL_C_def
   4  3  5  a_GL_GL_C_glyc
   3  4  8  a_GL_GL_C_glyc
   3  5  6  a_GL_C1_C1_glyc
-  5  6  7  a_C1_C1_C1_cbt
+  5  6  7  a_C1_C1_C1_def
   4  8  9  a_GL_C1_C1_glyc
-  8  9 10  a_C1_C1_C1_cbt
- 11 12 14  a_PO4_GL_C_lipid
+  8  9 10  a_C1_C1_C1_def
+ 11 12 14  a_PO4_GL_C_def
  13 12 14  a_GL_GL_C_glyc
  12 13 17  a_GL_GL_C_glyc
  12 14 15  a_GL_C1_C1_glyc
- 14 15 16  a_C1_C1_C1_cbt
+ 14 15 16  a_C1_C1_C1_def
  13 17 18  a_GL_C1_C1_glyc
- 17 18 19  a_C1_C1_C1_cbt
-
-#ifdef M3_CBT
-[dihedrals]
-;  i  j  k  l 	name 	(using named dihedraltypes from martini_v3.0_ffbonded.itp)
-   4  3  5  6 	d_GL_GL_C_C_glyc
-   3  4  8  9 	d_GL_GL_C_C_glyc
-   5  3  4  8 	d_C_GL_GL_C_glyc
-   3  5  6  7 	d_GL_C1_C1_C1_cbt
-   4  8  9 10 	d_GL_C1_C1_C1_cbt
-  13 12 14 15 	d_GL_GL_C_C_glyc
-  12 13 17 18 	d_GL_GL_C_C_glyc
-  14 12 13 17 	d_C_GL_GL_C_glyc
-  12 14 15 16 	d_GL_C1_C1_C1_cbt
-  13 17 18 19 	d_GL_C1_C1_C1_cbt
-#endif
+ 17 18 19  a_C1_C1_C1_def
 
 ;;;;; 
 ;;;;; Tetraoleoyl cardiolipin 
@@ -136,8 +121,8 @@
 ; i  j 
   1  2  b_PO4_GL_cl
   1 13  b_PO4_GL_cl
-  2  3 	b_PO4_GL_lipid
-  2  4 	b_PO4_GL_lipid_long
+  2  3 	b_PO4_GL_def
+  2  4 	b_PO4_GL_def_long
   3  4 	b_GL_GL_glyc
   3  5 	b_GL_C1_glyc_5long
   5  6 	b_C1_C4_mid_5long
@@ -147,8 +132,8 @@
   9 10 	b_C1_C4_mid_5long
  10 11 	b_C4_C1_mid
  11 12 	b_C1_C1_end
- 13 14  b_PO4_GL_lipid 
- 13 15 	b_PO4_GL_lipid_long
+ 13 14  b_PO4_GL_def 
+ 13 15 	b_PO4_GL_def_long
  14 15  b_GL_GL_glyc
  14 16  b_GL_C1_glyc_5long
  16 17  b_C1_C4_mid_5long
@@ -164,40 +149,21 @@
   2  1 13  a_PO4_GL_PO4_cl
   1  2  3  a_GL_PO4_GL_cl
   1 13 14  a_GL_PO4_GL_cl
-  2  3  5  a_PO4_GL_C_lipid
+  2  3  5  a_PO4_GL_C_def
   4  3  5  a_GL_GL_C_glyc
   3  4  9  a_GL_GL_C_glyc
   3  5  6  a_GL_C1_C4_glyc
-  5  6  7  a_C1_C4_C1_cbt
-  6  7  8  a_C4_C1_C1_cbt
+  5  6  7  a_C1_C4_C1_def
+  6  7  8  a_C4_C1_C1_def
   4  9 10  a_GL_C1_C4_glyc
-  9 10 11  a_C1_C4_C1_cbt
- 10 11 12  a_C4_C1_C1_cbt
- 13 14 16  a_PO4_GL_C_lipid
+  9 10 11  a_C1_C4_C1_def
+ 10 11 12  a_C4_C1_C1_def
+ 13 14 16  a_PO4_GL_C_def
  15 14 16  a_GL_GL_C_glyc
  14 15 20  a_GL_GL_C_glyc
  14 16 17  a_GL_C1_C4_glyc
- 16 17 18  a_C1_C4_C1_cbt
- 17 18 19  a_C4_C1_C1_cbt
+ 16 17 18  a_C1_C4_C1_def
+ 17 18 19  a_C4_C1_C1_def
  15 20 21  a_GL_C1_C4_glyc
- 20 21 22  a_C1_C4_C1_cbt
- 21 22 23  a_C4_C1_C1_cbt
-
-#ifdef M3_CBT
-[dihedrals]
-;  i  j  k  l 	name 	(using named dihedraltypes from martini_v3.0_ffbonded.itp)
-   4  3  5  6 	d_GL_GL_C_C_glyc
-   3  4  9 10 	d_GL_GL_C_C_glyc
-   5  3  4  9 	d_C_GL_GL_C_glyc
-   3  5  6  7 	d_GL_C1_C4_C1_cbt
-   5  6  7  8 	d_C1_C4_C1_C1_cbt
-   4  9 10 11 	d_GL_C1_C4_C1_cbt
-   9 10 11 12 	d_C1_C4_C1_C1_cbt
-  15 14 16 17 	d_GL_GL_C_C_glyc
-  14 15 20 21 	d_GL_GL_C_C_glyc
-  16 14 15 20 	d_C_GL_GL_C_glyc
-  14 16 17 18 	d_GL_C1_C4_C1_cbt
-  16 17 18 19 	d_C1_C4_C1_C1_cbt
-  15 20 21 22 	d_GL_C1_C4_C1_cbt
-  20 21 22 23 	d_C1_C4_C1_C1_cbt
-#endif
+ 20 21 22  a_C1_C4_C1_def
+ 21 22 23  a_C4_C1_C1_def
