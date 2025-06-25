@@ -98,7 +98,7 @@ ref_t                    = 310 310
 
 gen_vel                  = no
 gen_temp                 = 310
-gen_seed                 = 473529
+gen_seed                 = -1
 
 ; The recommended barostat is the stochastic cell rescaling barostat (c-rescale) 
 ; due to its exponential relaxation property. Martini lipids are benchmarked 
