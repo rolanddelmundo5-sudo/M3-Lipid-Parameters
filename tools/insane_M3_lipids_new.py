@@ -638,6 +638,14 @@ lipidsa.update(
             moltype,
             "GL5 PO41 GL1 GL2 C1A C2A D3A C4A C5A   - C1B C2B D3B C4B C5B   - PO42 GL3 GL4 C1C C2C D3C C4C C5C   - C1D C2D D3D C4D C5D   -",
         ),
+        "TOCL": (
+            moltype, 
+            "GL0 PO41 GL11 GL21 C1A1 D2A1 C3A1 C4A1 -  - C1B1 D2B1 C3B1 C4B1 -  - PO42 GL12 GL22 C1A2 D2A2 C3A2 C4A2 -  - C1B2 D2B2 C3B2 C4B2 -  -"
+        ),
+        "TMCL": (
+            moltype, 
+            "GL0 PO41 GL11 GL21 C1A1 C2A1 C3A1 -  -  - C1B1 C2B1 C3B1 -  -  - PO42 GL12 GL22 C1A2 C2A2 C3A2 - -  - C1B2 C2B2 C3B2 -  -  -"
+        ),
     }
 )
 
