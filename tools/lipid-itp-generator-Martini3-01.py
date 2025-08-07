@@ -34,8 +34,8 @@ desc = """
 This script creates a customized Martini 3 lipid topology based on the head, linker and
 tail specification strings provided. The tails, linkers and simple heagroup parameters follow
 the main optimized (v2.0) Martini 3 lipid definitions as described in:
-  K.B. Pedersen et al. The Martini 3 Lipidome: Expanded and Refined Parameters Improve Lipid Phase 
-  Behavior, 2024
+  K.B. Pedersen et al., The Martini 3 Lipidome: Expanded and Refined Parameters Improve Lipid Phase Behavior*, 
+  ACS Central Science, 2025. doi: 10.1021/acscentsci.5c00755
 The improved Martini 3 parameters for PI and PIPs headgroups are as specified in:
   L. Borges-Araujo, P.C.T. Souza, F. Fernandes and M.N. Melo.
   Improved Parameterization of Phosphatidylinositide Lipid Headgroups for the Martini 3
