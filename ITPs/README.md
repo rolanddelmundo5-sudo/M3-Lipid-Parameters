@@ -1,5 +1,5 @@
 ## Usage Warning !!
-Put "martini_v3.0.0_ffbonded_v2_openbeta.itp" before any other lipid topologies in the .top file
+Put "martini_v3.0.0_ffbonded_v2.itp" before any other lipid topologies in the .top file
 
 ## ⚠️ Note
 The .itp files from the open beta are identical to those in the final release associated with the publication.
