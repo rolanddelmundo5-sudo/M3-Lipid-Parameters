@@ -52,9 +52,12 @@ energygrps               = System
 
 cutoff-scheme            = Verlet
 nstlist                  = 20
+nsttcouple               = 20
+nstpcouple               = 20
+rlist                    = 1.35
+verlet-buffer-tolerance  = -1
 ns_type                  = grid
 pbc                      = xyz
-verlet-buffer-tolerance  = 0.005
 
 coulombtype              = reaction-field
 rcoulomb                 = 1.1
